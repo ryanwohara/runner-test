@@ -6,6 +6,6 @@ workflows:
 jobs:
   runner:
     machine: true
-    resource_class: ci-namespace/resource
+    resource_class: ci-namespace/runner-resource
     steps:
       - run: echo "Hi I'm on Runners!"
