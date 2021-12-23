@@ -6,6 +6,6 @@ workflows:
 jobs:
   runner:
     machine: true
-    resource_class: ci-orchestrator/ecs_medium
+    resource_class: ci-namespace/test-resource
     steps:
       - run: echo "Hi I'm on Runners!"
