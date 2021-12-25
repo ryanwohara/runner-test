@@ -6,6 +6,6 @@ workflows:
 jobs:
   runner:
     machine: true
-    resource_class: ci-namespace/local-k8s-medium
+    resource_class: ci-namespace/local-k8s-small
     steps:
       - run: echo "Hi I'm on Runners!"
